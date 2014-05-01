@@ -87,23 +87,23 @@ grunt.initConfig({
 In this example, `property` is used to filter json file.
 
 ```js
-// resources/Config.json
+// input file - resources/Config.json
 {
   "dev": {
-    "foo": "foo-value"
+    "serviceUrl": "http://dev.my.service/"
   },
   "test": {
-    "bar": "bar-value"
+    "serviceUrl": "http://test.my.service/"
   },
   "prod": {
-    "baz": "baz-value"
+    "serviceUrl": "http://prod.my.service/"
   }
 }
 ```
 
 ```js
-// dist/Config.js
-var Config = {"baz":"baz-value"};
+// output file - dist/Config.js
+var Config = {"serviceUrl":"http://prod.my.service/"};
 ```
 
 ```js

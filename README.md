@@ -27,8 +27,8 @@ grunt.initConfig({
   variablize: {
     your_target: {
       // Target-specific options go here.
-    },
-  },
+    }
+  }
 });
 ```
 
@@ -79,7 +79,7 @@ grunt.initConfig({
       output: "dist/Config.js",
       variable: "Config"
     }
-  },
+  }
 });
 ```
 
@@ -115,6 +115,6 @@ grunt.initConfig({
       variable: "Config",
       property: "prod"
     }
-  },
+  }
 });
 ```

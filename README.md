@@ -1,4 +1,4 @@
-# grunt-variablize
+# grunt-variablize [![Build Status](https://secure.travis-ci.org/msn0/grunt-variablize.png?branch=master)](http://travis-ci.org/msn0/grunt-variablize)
 
 > Turn json file into js object.
 

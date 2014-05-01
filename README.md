@@ -59,7 +59,7 @@ Json property name which should be variablized.
 #### Basic Usage
 In this example, the whole `resources/Config.json` file is used to create `dist/Config.js`.
 
-```json
+```js
 // resources/Config.json
 {
   "foo": "bar"
@@ -86,7 +86,7 @@ grunt.initConfig({
 #### Use Property Name
 In this example, `property` is used to filter json file.
 
-```json
+```js
 // resources/Config.json
 {
   "dev": {
@@ -94,7 +94,7 @@ In this example, `property` is used to filter json file.
   },
   "test": {
     "bar": "bar-value"
-  }
+  },
   "prod": {
     "baz": "baz-value"
   }

@@ -6,16 +6,16 @@
 If you used to
 
 ```js
-var socket = io.connect('http://localhost:5000'); // dev
+var socket = io.connect('http://localhost:5000'); // dev environment
 ```
 
 and
 
 ```js
-var socket = io.connect('http://172.18.3.24:5033'); // prod
+var socket = io.connect('http://172.18.3.24:5033'); // prod environment
 ```
 
-imagine you could have
+well... you deserve to have
 
 ```js
 // resources/config.json

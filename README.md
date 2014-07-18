@@ -10,7 +10,7 @@ If you used to
 var socket = io.connect('http://localhost:5000'); // dev
 ```
 
-or
+and
 
 ```js
 var socket = io.connect('http://172.18.3.24:5033'); // prod
@@ -22,10 +22,10 @@ imagine you could have
 // resources/config.json
 {
   "dev": {
-    "serviceUrl": "http://localhost:5000"
+    "api": "http://localhost:5000"
   },
   "prod": {
-    "serviceUrl": "http://172.18.3.24:5033"
+    "api": "http://172.18.3.24:5033"
   }
 }
 ```

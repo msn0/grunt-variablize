@@ -2,6 +2,40 @@
 
 > Turn json file into js object.
 
+## Overview
+
+If you used to
+
+```js
+var socket = io.connect('http://localhost:5000'); // dev
+```
+
+or
+
+```js
+var socket = io.connect('http://172.18.3.24:5033'); // prod
+```
+
+imagine you could have
+
+```js
+// resources/config.json
+{
+  "dev": {
+    "serviceUrl": "http://localhost:5000"
+  },
+  "prod": {
+    "serviceUrl": "http://172.18.3.24:5033"
+  }
+}
+```
+
+and use it like that
+
+```js
+var socket = io.connect(Config.api); // dev or prod - who cares
+```
+
 ## Getting Started
 This plugin requires Grunt `~0.4.2`
 

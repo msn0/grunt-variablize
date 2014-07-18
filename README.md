@@ -3,7 +3,6 @@
 > Turn json file into js object.
 
 ## Overview
-
 If you used to
 
 ```js
